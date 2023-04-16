@@ -1,4 +1,4 @@
-package com.dabba.birthdaycard.ui.theme
+package com.dabba.playground.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

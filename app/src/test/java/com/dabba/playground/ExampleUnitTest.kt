@@ -1,4 +1,4 @@
-package com.dabba.birthdaycard
+package com.dabba.playground
 
 import org.junit.Test
 

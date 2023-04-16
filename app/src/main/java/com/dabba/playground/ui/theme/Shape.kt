@@ -1,4 +1,4 @@
-package com.dabba.birthdaycard.ui.theme
+package com.dabba.playground.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.dabba.birthdaycard'
+    namespace 'com.dabba.playground'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.dabba.birthdaycard"
+        applicationId "com.dabba.playground"
         minSdk 31
         targetSdk 33
         versionCode 1

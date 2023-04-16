@@ -1,4 +1,4 @@
-package com.dabba.birthdaycard
+package com.dabba.playground
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,13 +17,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.dabba.birthdaycard.ui.theme.BirthdayCardTheme
+import com.dabba.playground.ui.theme.PlaygroundTheme
 
-class MainActivity : ComponentActivity() {
+class BirthdayCard : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            BirthdayCardTheme {
+            PlaygroundTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -76,7 +76,7 @@ fun BirthdayGreetingWithImage(name: String, from: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    BirthdayCardTheme {
+    PlaygroundTheme {
         BirthdayGreetingWithImage(name = "Juno", from = "Girish")
     }
 }
